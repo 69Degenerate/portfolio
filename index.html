@@ -7,12 +7,24 @@
     <title>Document</title>
 </head>
 <style>
-    h1{
-        color: aqua;
+    body {
+        justify-content: center;
         text-align: center;
     }
+    h1{
+        color: blue;
+    }
+
 </style>
 <body>
-    <h1>start now</h1>
+    <h1 id="header">start now</h1><br>
+    <input type="button" value="heloo" onclick="func()" id="b" ><br>
+    <p id="p"></p><br>
+    <script>
+        function func() {
+            document.getElementById("p").innerHTML="button is pressed";
+            document.getElementById("header").innerHTML="started";
+        }
+    </script>
 </body>
 </html>
