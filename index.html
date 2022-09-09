@@ -14,40 +14,138 @@
     
     <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-dark">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
+        <a class="navbar-brand" href="#"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" aria-current="page" href="#name">who am i</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Dropdown
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-              </ul>
+              <a class="nav-link" href="#about">About me</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled">Disabled</a>
+              <a class="nav-link" href="#contact">Education</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#prj">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
             </li>
           </ul>
-          <form class="d-flex" role="search">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
-          </form>
         </div>
       </div>
     </nav>
-    <!-- End Example Code -->
+
+
+    <div id="name" class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <h1 class="display-4">Vishal' Portfolio</h1>
+        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum dolore animi libero quas.</p>
+      </div>
+    </div>
+
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+<div id="prj" class="container my-3">
+  <h1 class="my-4 text-left">Projects</h1>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+          <img src="https://source.unsplash.com/1200x900/?nature,water" class="d-block w-100" alt="...">
+              
+              <div class="card-body">
+                <p class="card-text"></p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  
+                  </div>
+                  <small class="text-muted">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+              <img src="https://source.unsplash.com/1200x900/?girl,water" class="d-block w-100" alt="...">
+              <div class="card-body">
+                <p class="card-text"></p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    
+                  </div>
+                  <small class="text-muted">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+              <img src="https://source.unsplash.com/1200x900/?boy,water" class="d-block w-100" alt="...">
+              <div class="card-body">
+                <p class="card-text"></p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+               
+                  </div>
+                  <small class="text-muted">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+             <img src="https://source.unsplash.com/1200x900/?uncle,water" class="d-block w-100" alt="...">
+              <div class="card-body">
+                <p class="card-text"></p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          
+        </div>
+      </div>
+
+      <br>
+<div id="contact" class="container px-2  mb-3" >
+  <h1 class="text-center">Contact Us</h1>
+  <form method="post" action="/contact">
+      <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" class="form-control" id="name" name="name" placeholder="Enter your Name">
+      </div>
+
+      <div class="form-group">
+          <label for="email">Email address</label>
+          <input type="email" class="form-control" id="email" name="email" placeholder="Enter Your Email">
+      </div>
+      
+      <div class="form-group">
+          <label for="phone">Phone Number</label>
+          <input type="phone" class="form-control" id="phone" name="phone" placeholder="Enter Your Phone Number">
+      </div>      
+      
+      <div class="form-group">
+          <label for="desc">Tell me about what you want to contact me for...</label>
+          <textarea class="form-control" id="desc" rows="3" name="desc"></textarea>
+      </div>
+      <button class="btn btn-primary" type="submit">Submit</button>
+  </form>
+
+</div>
+
+
   </body>
 </html>
